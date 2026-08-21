@@ -1,0 +1,9 @@
+name: jwtue/role-and-contact-card
+group: common
+prefixFields: true
+fields:
+  - identifier: roles
+    type: Relation
+    foreign_table: 'tx_jwrolesandcontacts_domain_model_role'
+    minitems: 1
+    maxitems: 3

@@ -1,0 +1,26 @@
+{
+    "name": "jwtue/jw_roles_and_contacts",
+    "type": "typo3-cms-extension",
+    "description": "Person and Role master data (m:n via Role) plus a Content Block contact card for club/organization structures.",
+    "license": "GPL-2.0-or-later",
+    "keywords": ["TYPO3", "content-blocks", "contact", "person", "role"],
+    "authors": [
+        { "name": "Jonas Wolf", "role": "Developer", "homepage": "https://www.jonaswolf.de" }
+    ],
+    "require": {
+        "php": "^8.1",
+        "typo3/cms-core": "^12.4 || ^13.4 || ^14.0",
+        "typo3/cms-fluid-styled-content": "^12.4 || ^13.4 || ^14.0",
+        "friendsoftypo3/content-blocks": "^0.7.21 || ^1.6 || ^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JwTue\\RolesAndContacts\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "jw_roles_and_contacts"
+        }
+    }
+}

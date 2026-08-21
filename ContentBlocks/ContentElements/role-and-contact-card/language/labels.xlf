@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2026-08-21T00:00:00Z" product-name="jw_roles_and_contacts">
+		<body>
+			<trans-unit id="title">
+				<source>Rolle &amp; Kontakt</source>
+			</trans-unit>
+			<trans-unit id="description">
+				<source>Zeigt 1–3 Rollen/Funktionen mit ihrem jeweils aktuellen Inhaber (Ansprechpartner-Karte / Block).</source>
+			</trans-unit>
+			<trans-unit id="roles.label">
+				<source>Rollen/Funktionen</source>
+			</trans-unit>
+			<trans-unit id="roles.description">
+				<source>1 Rolle für eine Einzelkarte, 2–3 für einen gemeinsamen Block (z. B. Kommandant/Stellvertreter).</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

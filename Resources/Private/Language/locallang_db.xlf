@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2026-08-21T00:00:00Z" product-name="jw_roles_and_contacts">
+		<body>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_person" resname="tx_jwrolesandcontacts_domain_model_person">
+				<source>Person</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_person.name" resname="tx_jwrolesandcontacts_domain_model_person.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_person.image" resname="tx_jwrolesandcontacts_domain_model_person.image">
+				<source>Bild</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_person.address" resname="tx_jwrolesandcontacts_domain_model_person.address">
+				<source>Adresse (persönlich, Ausnahmefall)</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_person.email" resname="tx_jwrolesandcontacts_domain_model_person.email">
+				<source>E-Mail (persönlich, Ausnahmefall)</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_person.phone" resname="tx_jwrolesandcontacts_domain_model_person.phone">
+				<source>Telefon (persönlich, Ausnahmefall)</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_person.mobile" resname="tx_jwrolesandcontacts_domain_model_person.mobile">
+				<source>Mobil (persönlich, Ausnahmefall)</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_person.fax" resname="tx_jwrolesandcontacts_domain_model_person.fax">
+				<source>Fax (persönlich, Ausnahmefall)</source>
+			</trans-unit>
+
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_role" resname="tx_jwrolesandcontacts_domain_model_role">
+				<source>Funktion</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.title" resname="tx_jwrolesandcontacts_domain_model_role.title">
+				<source>Funktionsbezeichnung</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.person" resname="tx_jwrolesandcontacts_domain_model_role.person">
+				<source>Aktueller Inhaber</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.person.description" resname="tx_jwrolesandcontacts_domain_model_role.person.description">
+				<source>Leer lassen, wenn die Funktion aktuell nicht besetzt ist.</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.address" resname="tx_jwrolesandcontacts_domain_model_role.address">
+				<source>Adresse</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.email" resname="tx_jwrolesandcontacts_domain_model_role.email">
+				<source>E-Mail</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.phone" resname="tx_jwrolesandcontacts_domain_model_role.phone">
+				<source>Telefon</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.mobile" resname="tx_jwrolesandcontacts_domain_model_role.mobile">
+				<source>Mobil</source>
+			</trans-unit>
+			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.fax" resname="tx_jwrolesandcontacts_domain_model_role.fax">
+				<source>Fax</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

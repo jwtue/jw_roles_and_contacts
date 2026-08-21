@@ -1,0 +1,57 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+{namespace f=TYPO3Fluid\Fluid\ViewHelpers}
+
+<div class="roles-and-contacts">
+	<f:for each="{data.roles}" as="role">
+		<div class="roles-and-contacts-card">
+
+			<f:if condition="{role.person}">
+				<f:then>
+					<!-- TODO verify: does the Content Blocks Relation field "roles" resolve the nested
+					     classic-TCA field "person" of the related record too (incl. person.image as a
+					     ready-made FAL FileReference), or only the raw uid? "roles" itself is a
+					     Content-Blocks Relation field (resolved), but "person" is a plain TCA field on
+					     the target table, not managed by Content Blocks -> verify on a real instance,
+					     add a DataProcessor if not resolved automatically. -->
+					<f:if condition="{role.person.image.0}">
+						<div class="image">
+							<f:image image="{role.person.image.0}" width="120c" height="160c" alt="" />
+						</div>
+					</f:if>
+					<div class="name">{role.person.name}</div>
+				</f:then>
+			</f:if>
+
+			<div class="role-title">{role.title}</div>
+
+			<f:if condition="{role.address}">
+				<f:then><div class="address"><f:format.nl2br>{role.address}</f:format.nl2br></div></f:then>
+				<f:else><f:if condition="{role.person.address}"><div class="address"><f:format.nl2br>{role.person.address}</f:format.nl2br></div></f:if></f:else>
+			</f:if>
+
+			<f:if condition="{role.email}">
+				<f:then><div class="email"><f:link.email email="{role.email}" /></div></f:then>
+				<f:else><f:if condition="{role.person.email}"><div class="email"><f:link.email email="{role.person.email}" /></div></f:if></f:else>
+			</f:if>
+
+			<f:if condition="{role.phone}">
+				<f:then><div class="phone">{role.phone}</div></f:then>
+				<f:else><f:if condition="{role.person.phone}"><div class="phone">{role.person.phone}</div></f:if></f:else>
+			</f:if>
+
+			<f:if condition="{role.mobile}">
+				<f:then><div class="mobile">{role.mobile}</div></f:then>
+				<f:else><f:if condition="{role.person.mobile}"><div class="mobile">{role.person.mobile}</div></f:if></f:else>
+			</f:if>
+
+			<f:if condition="{role.fax}">
+				<f:then><div class="fax">{role.fax}</div></f:then>
+				<f:else><f:if condition="{role.person.fax}"><div class="fax">{role.person.fax}</div></f:if></f:else>
+			</f:if>
+
+		</div>
+	</f:for>
+</div>
+
+</html>
