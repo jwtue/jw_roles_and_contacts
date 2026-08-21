@@ -27,8 +27,11 @@ recommendation to put new shared extensions under `feuerwehr-commons`).
 Contact" as a compound, pronounceable name won out. Extension key **`jw_roles_and_contacts`**,
 Content Block identifier deliberately shorter/singular: `role-and-contact-card`.
 
-**Code is fully English** (identifiers, table/column names, namespace) — only the editorial UI
-labels in the `.xlf` files stay German (target audience: German-speaking editors).
+**Code is fully English** (identifiers, table/column names, namespace). Editorial UI labels are
+bilingual: `.xlf` files carry English as the XLIFF source language (TYPO3 convention — the
+unprefixed file must be English), with a `de.*.xlf` sibling providing the German `<target>`
+translation (primary audience: German-speaking editors, but the extension is meant to be usable
+without German too).
 
 ## Data model
 
@@ -57,11 +60,13 @@ no image/name).
 Configuration/TCA/tx_jwrolesandcontacts_domain_model_person.php
 Configuration/TCA/tx_jwrolesandcontacts_domain_model_role.php
 ext_tables.sql                          # both tables, standard TYPO3 columns (tstamp/crdate/…)
-Resources/Private/Language/locallang_db.xlf
+Resources/Private/Language/locallang_db.xlf     # TCA labels, English (source)
+Resources/Private/Language/de.locallang_db.xlf  # TCA labels, German (translation)
 ContentBlocks/ContentElements/role-and-contact-card/
   config.yaml                           # Relation field "roles", 1–3 roles
   templates/frontend.html
-  language/labels.xlf
+  language/labels.xlf                   # Content Block labels, English (source)
+  language/de.labels.xlf                # Content Block labels, German (translation)
 ```
 
 Master data (Person, Role) are **classic TCA tables**, not Content Blocks — they're master data,
@@ -125,7 +130,8 @@ below) actually need version-specific behavior, switch to `release-v12`/`release
 - Namespace `JwTue\RolesAndContacts\`, extension key `jw_roles_and_contacts`.
 - `declare(strict_types=1)`, PHP ^8.1, `final` by default, constructor DI — once there are PHP
   classes (currently: none, pure TCA + Content Block).
-- All identifiers (tables, columns, namespace, files) English; UI labels in `.xlf` German.
+- All identifiers (tables, columns, namespace, files) English; UI labels bilingual (English
+  source `.xlf`, German `de.*.xlf` translation) — new labels always get both.
 
 ## Repo / deploy
 

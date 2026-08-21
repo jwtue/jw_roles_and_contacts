@@ -1,58 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2026-08-21T00:00:00Z" product-name="jw_roles_and_contacts">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2026-08-21T00:00:00Z" product-name="jw_roles_and_contacts">
 		<body>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_person" resname="tx_jwrolesandcontacts_domain_model_person">
 				<source>Person</source>
+				<target>Person</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_person.name" resname="tx_jwrolesandcontacts_domain_model_person.name">
 				<source>Name</source>
+				<target>Name</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_person.image" resname="tx_jwrolesandcontacts_domain_model_person.image">
 				<source>Image</source>
+				<target>Bild</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_person.address" resname="tx_jwrolesandcontacts_domain_model_person.address">
 				<source>Address (personal, exception case)</source>
+				<target>Adresse (persönlich, Ausnahmefall)</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_person.email" resname="tx_jwrolesandcontacts_domain_model_person.email">
 				<source>Email (personal, exception case)</source>
+				<target>E-Mail (persönlich, Ausnahmefall)</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_person.phone" resname="tx_jwrolesandcontacts_domain_model_person.phone">
 				<source>Phone (personal, exception case)</source>
+				<target>Telefon (persönlich, Ausnahmefall)</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_person.mobile" resname="tx_jwrolesandcontacts_domain_model_person.mobile">
 				<source>Mobile (personal, exception case)</source>
+				<target>Mobil (persönlich, Ausnahmefall)</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_person.fax" resname="tx_jwrolesandcontacts_domain_model_person.fax">
 				<source>Fax (personal, exception case)</source>
+				<target>Fax (persönlich, Ausnahmefall)</target>
 			</trans-unit>
 
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_role" resname="tx_jwrolesandcontacts_domain_model_role">
 				<source>Role</source>
+				<target>Funktion</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.title" resname="tx_jwrolesandcontacts_domain_model_role.title">
 				<source>Role title</source>
+				<target>Funktionsbezeichnung</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.person" resname="tx_jwrolesandcontacts_domain_model_role.person">
 				<source>Current holder</source>
+				<target>Aktueller Inhaber</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.person.description" resname="tx_jwrolesandcontacts_domain_model_role.person.description">
 				<source>Leave empty if the role is currently vacant.</source>
+				<target>Leer lassen, wenn die Funktion aktuell nicht besetzt ist.</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.address" resname="tx_jwrolesandcontacts_domain_model_role.address">
 				<source>Address</source>
+				<target>Adresse</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.email" resname="tx_jwrolesandcontacts_domain_model_role.email">
 				<source>Email</source>
+				<target>E-Mail</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.phone" resname="tx_jwrolesandcontacts_domain_model_role.phone">
 				<source>Phone</source>
+				<target>Telefon</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.mobile" resname="tx_jwrolesandcontacts_domain_model_role.mobile">
 				<source>Mobile</source>
+				<target>Mobil</target>
 			</trans-unit>
 			<trans-unit id="tx_jwrolesandcontacts_domain_model_role.fax" resname="tx_jwrolesandcontacts_domain_model_role.fax">
 				<source>Fax</source>
+				<target>Fax</target>
 			</trans-unit>
 		</body>
 	</file>

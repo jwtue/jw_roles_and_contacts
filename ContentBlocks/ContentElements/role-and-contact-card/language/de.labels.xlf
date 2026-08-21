@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2026-08-21T00:00:00Z" product-name="jw_roles_and_contacts">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2026-08-21T00:00:00Z" product-name="jw_roles_and_contacts">
 		<body>
 			<trans-unit id="title">
 				<source>Role &amp; Contact</source>
+				<target>Rolle &amp; Kontakt</target>
 			</trans-unit>
 			<trans-unit id="description">
 				<source>Displays 1–3 roles, each with its current holder (contact card / block).</source>
+				<target>Zeigt 1–3 Rollen/Funktionen mit ihrem jeweils aktuellen Inhaber (Ansprechpartner-Karte / Block).</target>
 			</trans-unit>
 			<trans-unit id="roles.label">
 				<source>Roles</source>
+				<target>Rollen/Funktionen</target>
 			</trans-unit>
 			<trans-unit id="roles.description">
 				<source>1 role for a single card, 2–3 for a shared block (e.g. chairman/deputy chairman).</source>
+				<target>1 Rolle für eine Einzelkarte, 2–3 für einen gemeinsamen Block (z. B. Kommandant/Stellvertreter).</target>
 			</trans-unit>
 		</body>
 	</file>
